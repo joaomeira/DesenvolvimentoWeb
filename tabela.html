@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
 </head>
+
 <body>
-    <table border="2">
+    <!-- O width pode ser repre -->
+    <table border="2" width="100%">
         <!-- Utilizar Th quando for cabeçalho -->
         <tr>
             <th>Titulo 1</td>
@@ -23,9 +26,25 @@
             <td>item 22</td>
             <td>item 33</td>
         </tr>
+        <tr>
+            <td>Juntar Coluna</td>
+            <td colspan="2">Thadhã</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Juntar linhas</td>
+            <td>Observe</td>
+            <td>Agora</td>
+        </tr>
+        <!-- Observe que agora não foi necessario inserir a coluna do titulo 1, pois caso fosse inserida ficaria a frente da coluna 1 devido a linha ter sido mesclada -->
+        <tr>
+            <td>Viu...??</td>
+            <td>Funcionou</td>
+        </tr>
+
     </table>
 
     <p><a href="projeto.html">Ir para pagina inicial</a></p>
 
 </body>
+
 </html>
